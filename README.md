@@ -6,11 +6,11 @@
 How To Build A Restaurant Website With:
 </br>
 </br>
-- Next.js 14
+ - Next.js 14
 </br>
-- Tailwind 
+ - Tailwind 
 </br>
-- CSS 
+ - CSS 
 </br>
-- Framer Motion
+ - Framer Motion
 </br>
