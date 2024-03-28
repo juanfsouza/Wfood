@@ -4,8 +4,6 @@
 
 <h1 align="center">🖥 Technologies</h1>
 <h2> How To Build A Restaurant Website With:</h2>
-</br>
-</br>
  - Next.js 14
 </br>
  - Tailwind 
