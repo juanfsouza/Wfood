@@ -4,7 +4,7 @@
 
 <h1 align="center">🖥 Technologies</h1>
 How To Build A Restaurant Website With 
-- Next.js 14, 
+````- Next.js 14
 - Tailwind 
 - CSS 
-- Framer Motion 
+- Framer Motion ````
