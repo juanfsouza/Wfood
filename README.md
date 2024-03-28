@@ -3,7 +3,8 @@
 ![Screenshot_1](https://github.com/juanfsouza/Wfood/assets/88254614/605daac9-84de-4e41-a775-de2ba1c12ba0)
 
 <h1 align="center">🖥 Technologies</h1>
-(#optional-features)
+See [Optional Features](#optional-features)
+#### Optional Features
 How To Build A Restaurant Website With:
 </br>
 </br>
