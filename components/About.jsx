@@ -46,7 +46,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.2 }}
         >
             <Image 
-                src='/about'
+                src='/about/img.png'
                 width={705}
                 height={771}
                 alt=''

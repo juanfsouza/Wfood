@@ -13,24 +13,29 @@ const Header = () => {
     const [active, setActive] = useState(false);
 
     useEffect(() => {
-        const hanleScroll = () => {
+        const handleScroll = () => {
+            // Verificar a posição atual da rolagem
+            const scrollPosition = window.scrollY;
+
+            // Se a posição de rolagem for maior que 0, definir active como true, caso contrário, definir como false
+            setActive(scrollPosition > 0);
         };
 
-        // ad event Listener
-        window.addEventListener('scroll', hanleScroll);
+        // Adicionar event listener para scroll
+        window.addEventListener('scroll', handleScroll);
 
-        // clear event listener
-        return() => {
-            window.removeEventListener('scroll', hanleScroll);
+        // Remover event listener quando o componente é desmontado
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
     return (
         <header 
             className={`${ 
-                active ? 'bg-black-heavy py-4' : 'bg-none py-8'
+                active ? 'bg-black/90 py-4' : 'bg-none py-8'
                 } fixed top-0 w-full z-50 left-0 right-0 transition-all duration-200`}
-    >
+        >
         <div className='container mx-auto'>
                 {/* logo, nav, btn */}
             <div className='flex items-center justify-between'>
